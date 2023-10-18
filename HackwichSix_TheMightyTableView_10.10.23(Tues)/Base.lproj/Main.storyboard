@@ -46,6 +46,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="QLL-7j-CGs" id="FCW-1Y-Gv2"/>
+                                    <outlet property="delegate" destination="QLL-7j-CGs" id="qRG-Mu-3N3"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="zwZ-z9-AYk"/>
